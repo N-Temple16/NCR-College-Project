@@ -30,6 +30,7 @@ This is an example of the Quality role home screen just to show the variations o
 <img src="ncr-images/quality-home-screen.png" alt="Quality Home Screen" width="750">
 
 When starting the NCR process, a user with the Quality role will go to this page and can either create a new report or view, edit or download an existing NCR:
+<br>
 <img src="ncr-images/NCR-quality-page.png" alt="NCR Quality Page" width="750">
 
 To create an NCR, this page will prompt the user to fill out all the required sections in order to generate the report and move it along in the chain (image zoomed out to encompass the page in it's entirety):

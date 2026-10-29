@@ -1,8 +1,9 @@
 # NCR Creation/Modification Application Overview
-This application was developed as a team project during my Computer Programming studies at Niagara College, specifically for the Community Sponsored Project (https://www.niagaracollege.ca/courses/PROG/1440/term/1281/plan/P0411/). We worked with Haver and Boecker Niagara to create a mock application for their NCR (Non-Conformance Report) creation process. The project was created to speed up their, at the time, current slow manual process to a streamlined digital version. In the end, our application was chosen #1 out of all the groups competing and would go on to be implemented into their company.
+This application was developed as a team project during my Computer Programming studies at Niagara College, specifically for the 
+Community Sponsored Project (https://www.niagaracollege.ca/courses/PROG/1440/term/1281/plan/P0411/). We worked with Haver and Boecker Niagara to create a mock application for their NCR (Non-Conformance Report) creation process. The project was created to speed up their, at the time, current slow manual process to a streamlined digital version. In the end, our application was chosen #1 out of all the groups competing and would go on to be implemented into the business.
 
 ## Features
-NCR tracking, user roles, supplier and item management...
+As mentioned, this application's main purpose is to assist in the NCR creation and tracking process. This process involves 5 major roles with those being Quality, Engineer, Operations, Procurement and Admin each with unique accessibility specific to their job in the workflow. Other features include the ability to upload, create, view and edit supplier and item records whenever needed, user account management, functionality that allows for an NCR to become archived or voided, downloadable PDF files of NCRs and supplier reports, and finally a KPI dashboard that details a large majority of sections for an Admin role to view.
 
 ## Technologies
 C#, ASP.NET Core MVC, Entity Framework Core, SQLite, ASP.NET Core Identity...

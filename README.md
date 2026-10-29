@@ -47,19 +47,21 @@ Finally, a section was added to allow the Admin to view a KPI dashboard that sho
 
 ### Prerequisites
 - Visual Studio with the ASP.NET and web development workload.
-- The .NET SDK version required by the project
+- The .NET 7 SDK version or higher.
 
 ### Steps
-1. Clone this repository.
-2. open application
-3. allow NuGet to restore dependencies
-4. build solution and run the application
-5. Log in using the provided roles to see how each view changes.
+1. Clone or download this repository.
+2. Open HaverNCRCollegeProject.sln in Visual Studio.
+3. Allow NuGet to restore the project's dependencies if prompted.
+4. Build the solution and run the application.
+5. Log in using one of the provided demo accounts below to explore the application and see how the available views and permissions differ by role.
 
-
-Password is the same for each account: ```Pa55w@rd```
+### Demo Accounts
+All demo accounts use the same password: ```Pa55w@rd```
 - ```Admin```: admin@example.com
 - ```Quality```: quality@example.com
 - ```Engineer```: engineer@example.com
 - ```Operations```: operations@example.com
 - ```Procurement```: procurement@example.com
+
+```NOTE```: This project targets an unsupported .NET release and may require the corresponding runtime to run locally.

@@ -20,29 +20,37 @@ I also contributed to other areas of the application as needed, including assist
 
 ## Screenshots
 Most Screenshots used in this section were taken from the perspective of the Admin role as they are able to see all sections and features of the application unless otherwise specified.
-Once logged in, the home screen of the application is displayed
-![]()
+<br><br>
+Once logged in, the home screen of the application is displayed:
+![Admin Home Screen](ncr-images/admin-home-screen.png)
 
+This is an example of the Quality role home screen just to show the variations of interfaces depending on the users given role:
+![Quality Home Screen](ncr-images/quality-home-screen.png)
 
-This is an example of the Quality role home screen just to show the variations of interfaces depending on the users given role.
-![]()
+When starting the NCR process, a user with the Quality role will go to this page and can either create a new report or view, edit or download an existing NCR:
+![NCR Quality Page](ncr-images/NCR-quality-page.png)
 
-screenshots should most likely come from the admin perspective so all the features can be shown
-![]()
+To create an NCR, this page will prompt the user to fill out all the required sections in order to generate the report and move it along in the chain (image zoomed out to encompass the page in it's entirety):
+![NCR Creation Page](ncr-images/NCR-creation-page.png)
 
-screenshots should most likely come from the admin perspective so all the features can be shown
-![]()
+The section I helped create is the reinspection portion of the NCR lifecycle which has sections to be filled out as well as the ability, with the dropdown menu at the top of the page, to review the entire NCR for approval:
+![NCR Quality Page](ncr-images/NCR-reinspection-page.png)
+
+Finally, a section was added to allow the Admin to view a KPI dashboard that shows many important details about things like what phase NCRs are in, which suppliers have the reports to their name, which items are present the most in NCRs and so on:
+![NCR Quality Page](ncr-images/NCR-KPI-dashboard.png)
+
+## Setup Instructions
 
 ### Prerequisites
 - Visual Studio with the ASP.NET and web development workload.
 - The .NET SDK version required by the project
 
-## Setup Instructions
-- Clone this repository.
-- open application
-- allow NuGet to restore dependencies
-- build solution and run the application
-- Log in using the provided roles to see how each view changes.
+### Steps
+1. Clone this repository.
+2. open application
+3. allow NuGet to restore dependencies
+4. build solution and run the application
+5. Log in using the provided roles to see how each view changes.
 
 
 Password is the same for each account: ```Pa55w@rd```

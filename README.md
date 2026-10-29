@@ -27,6 +27,7 @@ Once logged in, the home screen of the application is displayed:
 <img src="ncr-images/admin-home-screen.png" alt="Admin Home Screen" width="750">
 
 This is an example of the Quality role home screen just to show the variations of interfaces depending on the users given role:
+<br>
 <img src="ncr-images/quality-home-screen.png" alt="Quality Home Screen" width="750">
 
 When starting the NCR process, a user with the Quality role will go to this page and can either create a new report or view, edit or download an existing NCR:

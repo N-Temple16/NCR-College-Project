@@ -2,7 +2,9 @@
 This MVC application was developed as a team project during my Computer Programming studies at Niagara College, specifically for the [Community Sponsored Project](https://www.niagaracollege.ca/courses/PROG/1440/term/1281/plan/P0411/). We worked with Haver and Boecker Niagara to create a mock application for their NCR (Non-Conformance Report) creation process. The project was created to speed up their, at the time, current slow manual process to a streamlined digital version. In the end, our application was chosen #1 out of all the groups competing and would go on to be implemented into the business.
 
 ## Features
-As mentioned, this application's main purpose is to assist in the NCR creation and tracking process. This process involves 5 major roles with those being Quality, Engineer, Operations, Procurement and Admin each with unique accessibility specific to their job in the workflow. Other features include the ability to upload, create, view and edit supplier and item records whenever needed, user account management, functionality that allows for an NCR to become archived or voided, downloadable PDF files of NCRs and supplier reports, and finally a KPI dashboard that details a large majority of sections for an Admin role to view. An email feature was implemented as well in order to notify the next role in the process that an NCR needed their attention, but I have removed that feature to protect sensitive information.
+As mentioned, this application's main purpose is to assist in the NCR creation and tracking process. This process involves 5 major roles with those being Quality, Engineer, Operations, Procurement and Admin each with unique accessibility specific to their job in the workflow. 
+
+Other features include the ability to upload, create, view and edit supplier and item records whenever needed, user account management, functionality that allows for an NCR to become archived or voided, downloadable PDF files of NCRs and supplier reports, and finally a KPI dashboard that details a large majority of sections for an Admin role to view. An email feature was implemented as well in order to notify the next role in the process that an NCR needed their attention, but I have removed that feature to protect sensitive information.
 
 ## Technologies
 - C#
@@ -22,22 +24,22 @@ I also contributed to other areas of the application as needed, including assist
 Most Screenshots used in this section were taken from the perspective of the Admin role as they are able to see all sections and features of the application unless otherwise specified.
 <br><br>
 Once logged in, the home screen of the application is displayed:
-![Admin Home Screen](ncr-images/admin-home-screen.png)
+<img src="ncr-images/admin-home-screen.png" alt="Admin Home Screen" width="750">
 
 This is an example of the Quality role home screen just to show the variations of interfaces depending on the users given role:
-![Quality Home Screen](ncr-images/quality-home-screen.png)
+<img src="ncr-images/quality-home-screen.png" alt="Quality Home Screen" width="750">
 
 When starting the NCR process, a user with the Quality role will go to this page and can either create a new report or view, edit or download an existing NCR:
-![NCR Quality Page](ncr-images/NCR-quality-page.png)
+<img src="ncr-images/NCR-quality-page.png" alt="NCR Quality Page" width="750">
 
 To create an NCR, this page will prompt the user to fill out all the required sections in order to generate the report and move it along in the chain (image zoomed out to encompass the page in it's entirety):
-![NCR Creation Page](ncr-images/NCR-creation-page.png)
+<img src="ncr-images/NCR-creation-page.png" alt="NCR Creation Page" width="750">
 
 The section I helped create is the reinspection portion of the NCR lifecycle which has sections to be filled out as well as the ability, with the dropdown menu at the top of the page, to review the entire NCR for approval:
-![NCR Quality Page](ncr-images/NCR-reinspection-page.png)
+<img src="ncr-images/NCR-reinspection-page.png" alt="NCR Quality Page" width="750">
 
 Finally, a section was added to allow the Admin to view a KPI dashboard that shows many important details about things like what phase NCRs are in, which suppliers have the reports to their name, which items are present the most in NCRs and so on:
-![NCR Quality Page](ncr-images/NCR-KPI-dashboard.png)
+<img src="ncr-images/NCR-KPI-dashboard.png" alt="NCR Quality Page" width="750">
 
 ## Setup Instructions
 
